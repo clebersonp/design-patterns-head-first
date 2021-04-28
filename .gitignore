@@ -1,6 +1,11 @@
 # Compiled class file
 *.class
 
+*/.project
+*/.classpath
+*/.settings/*
+*/.gitignore
+
 # Log file
 *.log
 
