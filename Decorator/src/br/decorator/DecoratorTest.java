@@ -27,7 +27,7 @@ import br.decorator.condiments.concrete.Whip;
  * 
  * Java I/O API utiliza muito o Decorator:
  * 
- * Reader eh o Decorator e InputStream eh o Component
+ * BufferedReader e InputStreamReader eh o Decorator e InputStream eh o Component
  * cada instancia tem um comportamento:
  * FileInputStream convert o arquivo em stream de byte
  * InputStreamReader convert stream de byte para caracteres
