@@ -4,3 +4,5 @@
 [Design patterns head first source code](https://www.wickedlysmart.com/head-first-design-patterns/)
 
 [Java desing patterns open source project](https://github.com/iluwatar/java-design-patterns)
+
+[Desing patterns Sourcemaking](https://sourcemaking.com/design_patterns)
