@@ -1,8 +1,7 @@
 # Design Patterns Head First Book 2º Edition
 
+<a href="https://www.wickedlysmart.com/head-first-design-patterns/" target="_blank">Design patterns head first source code</a>
 
-[Design patterns head first source code](https://www.wickedlysmart.com/head-first-design-patterns/)
+<a href="https://github.com/iluwatar/java-design-patterns" target="_blank">Java desing patterns open source project</a>
 
-[Java desing patterns open source project](https://github.com/iluwatar/java-design-patterns)
-
-[Desing patterns Sourcemaking](https://sourcemaking.com/design_patterns)
+<a href="https://sourcemaking.com/design_patterns" target="_blank">Desing patterns Sourcemaking</a>
