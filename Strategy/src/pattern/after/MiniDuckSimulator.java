@@ -29,7 +29,7 @@ public class MiniDuckSimulator {
 
 		System.out.println();
 
-		mallard.setFlyBehavior(new FlyRocketPowered());
+		mallard.setFlyBehavior(new FlyRocketPowered()); // eu posso passar qualquer implementacao de FlyBehavior, pois é intercambiavel
 		mallard.performFly();
 
 	}
