@@ -1,4 +1,4 @@
-package br.pattern.behavior;
+package pattern.after.behavior;
 
 public class FlyWithWings implements FlyBehavior {
 

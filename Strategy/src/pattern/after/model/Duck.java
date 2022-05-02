@@ -1,7 +1,7 @@
-package br.pattern.model;
+package pattern.after.model;
 
-import br.pattern.behavior.FlyBehavior;
-import br.pattern.behavior.QuackBehavior;
+import pattern.after.behavior.FlyBehavior;
+import pattern.after.behavior.QuackBehavior;
 
 public abstract class Duck {
 	

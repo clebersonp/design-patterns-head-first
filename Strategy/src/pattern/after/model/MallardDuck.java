@@ -1,7 +1,7 @@
-package br.pattern.model;
+package pattern.after.model;
 
-import br.pattern.behavior.FlyWithWings;
-import br.pattern.behavior.Quack;
+import pattern.after.behavior.FlyWithWings;
+import pattern.after.behavior.Quack;
 
 public class MallardDuck extends Duck {
 
