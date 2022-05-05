@@ -39,17 +39,24 @@ public class WeatherStation {
 		System.out.println("\n-------------------------------------------------------\n");
 
 		// se auto remover como observer do Subject
-		currentDisplay.unregister();
-		statisticsDisplay.unregister();
-		forecastDisplay.unregister();
+//		currentDisplay.unregister();
+//		statisticsDisplay.unregister();
+//		forecastDisplay.unregister();
+		weatherData.removeObserver(currentDisplay);
+		weatherData.removeObserver(statisticsDisplay);
+		weatherData.removeObserver(forecastDisplay);
 
 		weatherData.setMeasurements(75, 80, 27.9f);
 		System.out.println("\n-------------------------------------------------------\n");
 
 		// se auto adicionando como observers
-		currentDisplay.register();
-		statisticsDisplay.register();
-		forecastDisplay.register();
+//		currentDisplay.register();
+//		statisticsDisplay.register();
+//		forecastDisplay.register();
+		weatherData.removeObserver(heatIndexDisplay);
+		weatherData.registerObserver(currentDisplay);
+		weatherData.registerObserver(statisticsDisplay);
+		weatherData.registerObserver(forecastDisplay);
 		
 		weatherData.setMeasurements(79, 88, 28.5f);
 		System.out.println("\n-------------------------------------------------------\n");
