@@ -21,7 +21,7 @@ import br.decorator.condiments.concrete.Whip;
  * 
  * 
  * Decorator:
- * Attach additional responsabilities to an object dynamically.
+ * Attach additional responsabilities to an object dynamically.(Os decorators anexam responsabilidades nos componentes)
  * Decorators provide a flexible alternative to subclassing for extending functionality.
  * 
  * 
@@ -45,7 +45,7 @@ public class DecoratorTest {
 		beverage.setSize(Size.VENTI);
 		System.out.println(beverage.getDescription() + " $" + beverage.cost());
 
-		Beverage beverage2 = new DarkRoast();
+		Beverage beverage2 = new DarkRoast(); // o objeto concreteComponente é objeto base da recursividade
 		beverage2.setSize(Size.VENTI);
 		beverage2 = new Mocha(beverage2);
 		beverage2.setSize(Size.VENTI);
